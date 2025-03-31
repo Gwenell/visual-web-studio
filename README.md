@@ -1,51 +1,115 @@
-# Getting Started with Create React App
+# Visual Web Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un environnement de développement web intégré (IDE) visuel qui permet de créer, éditer et prévisualiser des projets web en temps réel. Visual Web Studio offre une approche pédagogique et intuitive du développement web, avec des guides interactifs et une prévisualisation instantanée.
 
-## Available Scripts
+![Capture d'écran de Visual Web Studio](screenshot.png)
 
-In the project directory, you can run:
+## Fonctionnalités principales
 
-### `npm start`
+- **Éditeur de code intégré** pour HTML, CSS et JavaScript
+- **Prévisualisation en temps réel** de vos modifications
+- **Bibliothèque d'éléments** pour ajouter rapidement des composants HTML
+- **Panneau de propriétés intelligent** qui affiche des informations détaillées sur les éléments sélectionnés
+- **Mode visuel et mode code** pour alterner entre approche visuelle et édition directe
+- **Sauvegarde automatique** et gestion des projets
+- **Guides intégrés** pour apprendre les bonnes pratiques HTML, CSS et JavaScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Guide d'utilisation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Création d'un projet
 
-### `npm test`
+1. Sur la page d'accueil, cliquez sur "Nouveau projet"
+2. Donnez un nom à votre projet
+3. Choisissez un modèle de départ (facultatif)
+4. Commencez à éditer!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Interface de l'éditeur
 
-### `npm run build`
+L'éditeur est divisé en trois sections principales:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Panneau gauche**: Bibliothèque d'éléments que vous pouvez glisser-déposer dans votre projet
+- **Zone centrale**: Éditeur de code et prévisualisation
+- **Panneau droit**: Propriétés de l'élément sélectionné avec guides détaillés
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Édition visuelle vs. code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Pour ajouter des éléments visuellement, faites glisser les éléments depuis la bibliothèque
+- Pour éditer directement le code, cliquez sur les onglets HTML, CSS ou JavaScript
+- Tous les changements sont synchronisés entre les modes
 
-### `npm run eject`
+### Guide des propriétés
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Lorsque vous sélectionnez un élément dans la prévisualisation:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Le panneau de propriétés affiche les attributs HTML, styles CSS et interactions JavaScript de l'élément
+2. Des explications détaillées et exemples de code sont fournis pour chaque propriété
+3. Des suggestions adaptées au type d'élément vous aident à améliorer votre code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Sauvegarde et exportation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Vos projets sont automatiquement sauvegardés dans le stockage local du navigateur
+- Utilisez le bouton "Sauvegarder" pour enregistrer manuellement
+- Exportez votre projet pour télécharger les fichiers HTML, CSS et JavaScript
 
-## Learn More
+## Installation et déploiement
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prérequis
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# visual-web-studio
-# visual-web-studio
-# visual-web-studio
-# visual-web-studio
-# visual-web-studio
+- Node.js 14.x ou supérieur
+- npm 6.x ou supérieur
+
+### Installation locale
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/VOTRE-USERNAME/visual-web-studio.git
+cd visual-web-studio
+
+# Installer les dépendances
+npm install
+
+# Lancer en mode développement
+npm start
+```
+
+### Déploiement
+
+```bash
+# Créer une version de production
+npm run build
+
+# Le résultat se trouve dans le dossier /build
+```
+
+## Technologies utilisées
+
+- **React** pour l'interface utilisateur
+- **CodeMirror** pour l'éditeur de code
+- **styled-components** pour les styles
+- **localStorage** pour la sauvegarde des projets
+
+## Public cible
+
+- **Débutants en développement web** souhaitant apprendre HTML, CSS et JavaScript
+- **Enseignants et formateurs** cherchant un outil pédagogique pour le développement web
+- **Développeurs** souhaitant prototyper rapidement des interfaces
+- **Designers web** voulant concrétiser leurs maquettes sans coder
+
+## Contribution
+
+Les contributions sont bienvenues! N'hésitez pas à:
+1. Fork le projet
+2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/amazing-feature`)
+3. Commit vos changements (`git commit -m 'Add some amazing feature'`)
+4. Push vers la branche (`git push origin feature/amazing-feature`)
+5. Ouvrir une Pull Request
+
+## Licence
+
+Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+
+## Contact
+
+Votre Nom - [@votre_twitter](https://twitter.com/votre_twitter) - email@example.com
+
+Lien du projet: [https://github.com/VOTRE-USERNAME/visual-web-studio](https://github.com/VOTRE-USERNAME/visual-web-studio)
