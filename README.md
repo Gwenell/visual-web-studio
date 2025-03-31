@@ -2,7 +2,6 @@
 
 Un environnement de développement web intégré (IDE) visuel qui permet de créer, éditer et prévisualiser des projets web en temps réel. Visual Web Studio offre une approche pédagogique et intuitive du développement web, avec des guides interactifs et une prévisualisation instantanée.
 
-![Capture d'écran de Visual Web Studio](screenshot.png)
 
 ## Fonctionnalités principales
 
@@ -104,12 +103,3 @@ Les contributions sont bienvenues! N'hésitez pas à:
 4. Push vers la branche (`git push origin feature/amazing-feature`)
 5. Ouvrir une Pull Request
 
-## Licence
-
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
-
-## Contact
-
-Votre Nom - [@votre_twitter](https://twitter.com/votre_twitter) - email@example.com
-
-Lien du projet: [https://github.com/VOTRE-USERNAME/visual-web-studio](https://github.com/VOTRE-USERNAME/visual-web-studio)
